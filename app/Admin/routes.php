@@ -18,4 +18,5 @@ Route::group([
     $router->resource('slider', SliderController::class);
     $router->resource('products', ProductController::class);
     $router->resource('promotions', PromotionController::class);
+    $router->resource('orders', OrderController::class);
 });
