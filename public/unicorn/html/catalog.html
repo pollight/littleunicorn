@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no">
+    <title>Unicorn</title>
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.formstyler.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+  <body>
+    
+
+    <div class="add-to-basket-block">
+   <div class="container">
+      <div class="row">
+         <div class="add-to-basket-content">
+            <div class="col-md-3 col-sm-5 col-xs-5">
+               <div class="add-product-info">
+                  <img src="../img/basket-fiolet.svg" alt="">
+                  <span>Товар добавлен в корзину!</span>
+               </div>
+            </div>
+            <div class="col-md-5 hidden-mobile-item">
+               <div class="some-product">
+                  <div class="product-image">
+                     <img src="../img/some-product4.png" alt="">
+                  </div>
+                  <div class="product-name-and-price">
+                     <a href="" class="product-name">Название этого товара</a>
+                     <div class="price-row">
+                        <span class="price"><span>1500</span> рублей</span>
+                        <span class="old-price"><span>1999</span> рублей</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-7 col-xs-7">
+               <div class="go-order-row">
+                  <a href="" class="go-order basic-button fiolet">Перейти к оформлению</a>
+                  <a href="" class="close-order-window"><img src="../img/close.svg" alt=""></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>    <header class="header">
+   <div class="header-topline">
+      <div class="container">
+         <div class="row">
+            <div class="topline-content">
+               <div class="col-md-2">
+                  <a href="../html/main.html" class="header-logo"><img src="../img/logo.svg" alt=""></a>
+               </div>
+               <div class="col-md-7 hidden-on-basket-page">
+                  <div class="geo-and-toline-nav">
+                     <span class="geo"><img src="../img/pin.svg" alt=""><span>Москва</span></span>
+                     <ul class="topline-nav">
+                        <li><a href="">Бесплатная доставка</a></li>
+                        <li><a href="">Популярное</a></li>
+                        <li><a href="#modal-call" data-toggle="modal">Звонок с сайта</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-3">
+                  <div class="topline-phone-and-delivery">
+                     <a href="tel:88001002020" class="phone"><img src="../img/phone.svg" alt=""><span>8 800 100 20-20</span></a>
+                     <span class="free-call">Бесплатно по России</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>     
+   </div>
+   <div class="header-bottomline">
+      <div class="container">
+         <div class="row">
+            <div class="bottomline-content">
+               <div class="col-md-2">
+                  <div class="catalog-button">
+                     <span class="catalog" id="catalog"><img src="../img/menu.svg" alt=""><span>Каталог товаров</span></span>
+                     <div class="only-catalog-menu">
+                        <div class="catalog-nav">
+                           <ul class="catalog-menu">
+                              <li class="with-submenu">
+                                 <a href="">Бассейны</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Индивидуальный дизайн</a></li>
+                                    <li><a href="">Ковры из микрофибры</a></li>
+                                    <li><a href="">Плюшевые ковры</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Ковры</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Индивидуальный дизайн</a></li>
+                                    <li><a href="">Ковры из микрофибры</a></li>
+                                    <li><a href="">Плюшевые ковры</a></li>
+                                    <li><a href="">Стёганные ковры</a></li>
+                                    <li><a href="">Ковры с ворсом</a></li>
+                                    <li><a href="">Коврики</a></li>
+                                    <li><a href="">Коврик-мешок</a></li>
+                                    <li><a href="">Круглые коврики</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Товары для ванной</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                    <li><a href="">Пункт 7</a></li>
+                                    <li><a href="">Пункт 8</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Товары для детей</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Люстры</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Эко-посуда</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Индивидуальный дизайн</a></li>
+                                    <li><a href="">Ковры из микрофибры</a></li>
+                                    <li><a href="">Плюшевые ковры</a></li>
+                                    <li><a href="">Стёганные ковры</a></li>
+                                    <li><a href="">Ковры с ворсом</a></li>
+                                    <li><a href="">Коврики</a></li>
+                                    <li><a href="">Коврик-мешок</a></li>
+                                    <li><a href="">Круглые коврики</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Рюкзаки</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Индивидуальный дизайн</a></li>
+                                    <li><a href="">Ковры из микрофибры</a></li>
+                                    <li><a href="">Плюшевые ковры</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Обувь</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                    <li><a href="">Пункт 7</a></li>
+                                    <li><a href="">Пункт 8</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Пледы</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Настенные наклейки</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                    <li><a href="">Пункт 7</a></li>
+                                    <li><a href="">Пункт 8</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Подвесные кресла</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Коляски</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                    <li><a href="">Пункт 7</a></li>
+                                    <li><a href="">Пункт 8</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Обои</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                           <div class="catalog-undermenu-mobile">
+                              <ul class="geo-and-help">
+                                 <li><a href="">Москва и Московская область</a></li>
+                                 <li><a href="">Помощь покупателям</a></li>
+                              </ul>
+                              <a href="tel:88001002020" class="mobile-phone">8 800 100 20-20</a>
+                              <span class="free">Бесплатно по России</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-4 mobile-logo">
+                  <a href="../html/main.html" class="header-logo"><img src="../img/logo.svg" alt=""></a>
+               </div>
+               <div class="col-lg-7 col-md-6 hidden-search-block">
+                  <div class="search-and-bottom-nav">
+                     <button class="open-mobile-search">
+                        <img src="../img/search-mobile.svg" alt="" class="open-search">
+                        <img src="../img/close.svg" alt="" class="close-search">
+                     </button>
+                     <div class="search-row-wrp">
+                        <form>
+                           <div class="search">
+                              <input type="text" name="search" placeholder="Люстра из мрамора" autocomplete="off" class="search-input">
+                              <button><img src="../img/search.svg" alt=""></button>
+                              <ul class="search-result-list">
+                                 <li><a href="">Название товара 1</a></li>
+                                 <li><a href="">Название товара 2</a></li>
+                                 <li><a href="">Название товара 3</a></li>
+                                 <li><a href="">Название товара 4</a></li>
+                                 <li><a href="">Название товара 5</a></li>
+                                 <li><a href="">Название товара 6</a></li>
+                                 <li><a href="">Название товара 7</a></li>
+                                 <li><a href="">Название товара 8</a></li>
+                                 <li><a href="">Название товара 9</a></li>
+                                 <li><a href="">Название товара 10</a></li>
+                              </ul>
+                           </div>
+                        </form>
+                     </div>
+                     <ul class="bottomline-nav">
+                        <li><a href="">Новинки</a></li>
+                        <li><a href="">Хиты продаж</a></li>
+                        <li><a href="">Скидки</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="basket-button-wrp active">
+                     <!--Если у basket-button-wrp есть класс active (это значит что добавлен как минимум 1 товар в корзину), то тогда при наведении на корзину вылезет окно с добавленными товарами. Если класса active нету, то при наведении не произойдет ничего и попасть невозможно даже на страницу корзины (таково условие заказчика было)-->
+                     <a href="../html/basket.html" class="basket-button">
+                        <img src="../img/basket.svg" alt="">
+                        <span class="basket-content">
+                           <span class="items">2</span>
+                           <span class="basket-name">Корзина покупок</span>
+                        </span>
+                     </a>
+                     <div class="added-items-block">
+                        <form>
+                           <ul class="added-items-list">
+                              <li>
+                                 <a href="" class="product">
+                                    <span class="product-image"><img src="../img/some-product4.png" alt=""></span>
+                                    <span class="product-name">Название этого товара Название этого товара</span>
+                                 </a>
+                                 <span class="price"><span>127</span> рублей</span>
+                                 <div class="quantity">
+                                    <input type="number" class="quantity-input input_styled" min="1" step="1" value="1">
+                                 </div>
+                                 <span class="all-price"><span>382</span> рублей</span>
+                                 <a href="" class="remove-product"><img src="../img/close.svg" alt=""></a>
+                              </li>
+                              <li>
+                                 <a href="" class="product">
+                                    <span class="product-image"><img src="../img/some-product4.png" alt=""></span>
+                                    <span class="product-name">Название этого товара Название этого товара</span>
+                                 </a>
+                                 <span class="price"><span>127</span> рублей</span>
+                                 <div class="quantity">
+                                    <input type="number" class="quantity-input input_styled" min="1" step="1" value="1">
+                                 </div>
+                                 <span class="all-price"><span>382</span> рублей</span>
+                                 <a href="" class="remove-product"><img src="../img/close.svg" alt=""></a>
+                              </li>
+                           </ul>
+                           <span class="all-price-for-all-products">Итого: <span>381</span> рублей</span>
+                           <button class="pay-order basic-button fiolet">Оформить заказ <img src="../img/arrow-right.svg" alt=""></button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+
+    <main class="main">
+      <section class="breadcrumbs-wrp">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li class="active">Люстры</li>
+          </ol>
+        </div>
+      </section>
+      <section class="products-category-block-wrp">
+        <div class="container">
+          <div class="category-name-and-show-all">
+            <span class="category-name">Люстры <sup class="items">27</sup></span>
+          </div>
+          <div class="row">
+            <div class="catalog-content">
+
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit discount">
+                  <a href="" class="product-image">
+                    <img src="../img/product1.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Конфеты Raffaello</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>2 000</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit">
+                  <a href="" class="product-image">
+                    <img src="../img/product2.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Смартфон Samsung</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>1 500</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit discount">
+                  <a href="" class="product-image">
+                    <img src="../img/product3.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Молоко Parmalat</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>1 999</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit">
+                  <a href="" class="product-image">
+                    <img src="../img/product4.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Беспроводные наушники</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>3 400</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit discount">
+                  <a href="" class="product-image">
+                    <img src="../img/product1.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Конфеты Raffaello</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>2 000</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit">
+                  <a href="" class="product-image">
+                    <img src="../img/product2.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Смартфон Samsung</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>1 500</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit discount">
+                  <a href="" class="product-image">
+                    <img src="../img/product3.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Молоко Parmalat</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>1 999</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit">
+                  <a href="" class="product-image">
+                    <img src="../img/product4.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Беспроводные наушники</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>3 400</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit discount">
+                  <a href="" class="product-image">
+                    <img src="../img/product1.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Конфеты Raffaello</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>2 000</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit">
+                  <a href="" class="product-image">
+                    <img src="../img/product2.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Смартфон Samsung</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>1 500</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit discount">
+                  <a href="" class="product-image">
+                    <img src="../img/product3.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Молоко Parmalat</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>1 999</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-product hit">
+                  <a href="" class="product-image">
+                    <img src="../img/product4.png" alt="">
+                    <span class="hit-and-discount">
+                      <span class="hit">Хит</span>
+                      <span class="discount">-30%</span>
+                    </span>
+                  </a>
+                  <div class="product-info-block">
+                    <div class="product-info">
+                      <a href="" class="product-name">Беспроводные наушники</a>
+                      <span class="product-descript">Краткое описание товара</span>
+                      <span class="price"><span>3 400</span> рублей</span>
+                    </div>
+                    <div class="product-actions">
+                      <a href="" class="basic-button fiolet in-basket">В корзину</a>
+                      <a href="" class="basic-button black">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="show-more-row">
+              <a href="" class="basic-button black">Показать ещё</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-advantages-wrp">
+        <div class="container">
+          <div class="row">
+            <div class="advantage-content">
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-advantage">
+                  <img src="../img/a1.svg" alt="" class="advantage-image">
+                  <span class="advantage-info">Бесплатная доставка</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-advantage">
+                  <img src="../img/a2.svg" alt="" class="advantage-image">
+                  <span class="advantage-info">Выгодные предложения</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-advantage">
+                  <img src="../img/a3.svg" alt="" class="advantage-image">
+                  <span class="advantage-info">Низкие<br> цены</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="item-of-advantage">
+                  <img src="../img/a4.svg" alt="" class="advantage-image">
+                  <span class="advantage-info">Быстрый возврат</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="layer"></div>
+
+    <footer class="footer">
+	<div class="footer-topline">
+		<div class="container">
+			<div class="row">
+				<div class="topline-content">
+					<div class="col-md-3 col-xs-6">
+						<div class="footer-nav-block">
+							<span class="footer-nav-name">Сервис и поддержка</span>
+							<ul class="footer-nav">
+								<li><a href="">Как сделать заказ?</a></li>
+								<li><a href="">Доставка</a></li>
+								<li><a href="">Оплата</a></li>
+								<li><a href="">Возврат</a></li>
+								<li><a href="">Акции</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="footer-nav-block">
+							<span class="footer-nav-name">Маркетплейс</span>
+							<ul class="footer-nav">
+								<li><a href="">О компании</a></li>
+								<li><a href="">Контакты</a></li>
+								<li><a href="">Реквизиты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="footer-nav-block">
+							<span class="footer-nav-name">Правовая информация</span>
+							<ul class="footer-nav">
+								<li><a href="">Политика обработки<br> персональных данных</a></li>
+								<li><a href="">Условия заказа и доставки</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="footer-nav-block">
+							<span class="footer-nav-name">Cледуйте за нами</span>
+							<ul class="networks-list">
+								<li><a href=""><img src="../img/fb.svg" alt=""></a></li>
+								<li><a href=""><img src="../img/vk.svg" alt=""></a></li>
+								<li><a href=""><img src="../img/inst.svg" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-centerline">
+		<div class="container">
+			<div class="row">
+				<div class="centerline-content">
+					<div class="col-lg-7">
+						<div class="questions-block-content">
+							<div class="question-block"><span>Остались вопросы?</span></div>
+							<div class="question-block">
+								<span>Звоните</span>
+								<a href="tel:08001002020" class="phone">0 800 100 20-20</a>
+							</div>
+							<div class="question-block">
+								<span>или пишите</span>
+								<ul class="networks-list">
+									<li><a href=""><img src="../img/tg.svg" alt=""></a></li>
+									<li><a href=""><img src="../img/viber.svg" alt=""></a></li>
+									<li><a href=""><img src="../img/whatsapp.svg" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 mobile-hidden">
+						<div class="questions-block-content">
+							<div class="question-block">
+								<span>Принимаем к оплате:</span>
+								<ul class="networks-list">
+									<li><a href=""><img src="../img/mastercard.svg" alt=""></a></li>
+									<li><a href=""><img src="../img/visa.svg" alt=""></a></li>
+									<li><a href=""><img src="../img/mir.svg" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottomline">
+		<div class="container">
+			<div class="bottomline-content">
+				<span class="copy"><strong>2015-2020 magazin.ru</strong> - интернет-магазин товаров разносторонней тематики</span>
+			</div>
+		</div>
+	</div>
+</footer>
+
+    <div class="modal fade" id="modal-call">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="../img/close-white.svg" alt=""></button>
+        <h2 class="second-level-title">Свяжитесь с нами!</h2>
+        <span class="modal-descript">Мы позвоним Вам в течение 10 минут</span>
+        <form>
+           <input type="text" class="basic-input" name="name" placeholder="Введите Ваше имя">
+           <input type="tel" class="basic-input" name="phone" placeholder="Введите Ваш номер">
+           <button class="basic-button fiolet connect">Связаться с нами</button>
+           <span class="politics">Нажимая на кнопку, я даю согласие на обработку <a href="../html/politics.html">персональных данных</a></span>
+        </form>
+      </div>
+   </div>
+</div>
+
+<div class="modal fade" id="modal-thanks">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="../img/close-white.svg" alt=""></button>
+        <h2 class="second-level-title">Спасибо!</h2>
+        <span class="modal-descript">Ждите нашего звонка</span>
+        <img src="../img/phone-modal.svg" alt="" class="phone-thanks">
+      </div>
+   </div>
+</div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery.inputmask.bundle.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery.formstyler.js"></script>
+    <script src="../js/slick.js"></script>
+    <!-- My JS -->
+    <script src="../js/celdrusch.js"></script>
+
+  </body>
+</html>

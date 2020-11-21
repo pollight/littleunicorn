@@ -1,0 +1,52 @@
+.basic-text p{
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.option-geo{
+    margin-top: 60px;
+    z-index: 999;
+    overflow-x: hidden;
+    position: absolute;
+    font-size: 18px;
+    color: #000;
+    width: 100%;
+    background: #fff;
+    border-left: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    /*border-bottom: 1px solid #9b9b9b;*/
+    overflow-y: auto;
+}
+.option-geo ul {
+    height: 200px;
+}
+.option-geo ul li{
+    cursor: pointer;
+
+    padding: 5px 13px
+}
+.option-geo ul li:hover{
+    color: #fff;
+    background: #8c9beb;
+}
+.geo{
+    cursor: pointer;
+}
+.geo-container-option{
+    margin-bottom: 20px;
+    display: none;
+}
+.delivery-adress.point p{
+    margin-bottom: 15px;
+}
+.loader-quantity{
+    display: none;
+    position: absolute;
+    width: 100px;
+    z-index: 99;
+    text-align: center;
+    background-color: white;
+}

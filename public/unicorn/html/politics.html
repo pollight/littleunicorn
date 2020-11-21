@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no">
+    <title>Unicorn</title>
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.formstyler.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+  <body>
+    
+
+    <div class="add-to-basket-block">
+   <div class="container">
+      <div class="row">
+         <div class="add-to-basket-content">
+            <div class="col-md-3 col-sm-5 col-xs-5">
+               <div class="add-product-info">
+                  <img src="../img/basket-fiolet.svg" alt="">
+                  <span>Товар добавлен в корзину!</span>
+               </div>
+            </div>
+            <div class="col-md-5 hidden-mobile-item">
+               <div class="some-product">
+                  <div class="product-image">
+                     <img src="../img/some-product4.png" alt="">
+                  </div>
+                  <div class="product-name-and-price">
+                     <a href="" class="product-name">Название этого товара</a>
+                     <div class="price-row">
+                        <span class="price"><span>1500</span> рублей</span>
+                        <span class="old-price"><span>1999</span> рублей</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-7 col-xs-7">
+               <div class="go-order-row">
+                  <a href="" class="go-order basic-button fiolet">Перейти к оформлению</a>
+                  <a href="" class="close-order-window"><img src="../img/close.svg" alt=""></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>    <header class="header">
+   <div class="header-topline">
+      <div class="container">
+         <div class="row">
+            <div class="topline-content">
+               <div class="col-md-2">
+                  <a href="../html/main.html" class="header-logo"><img src="../img/logo.svg" alt=""></a>
+               </div>
+               <div class="col-md-7 hidden-on-basket-page">
+                  <div class="geo-and-toline-nav">
+                     <span class="geo"><img src="../img/pin.svg" alt=""><span>Москва</span></span>
+                     <ul class="topline-nav">
+                        <li><a href="">Бесплатная доставка</a></li>
+                        <li><a href="">Популярное</a></li>
+                        <li><a href="#modal-call" data-toggle="modal">Звонок с сайта</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-3">
+                  <div class="topline-phone-and-delivery">
+                     <a href="tel:88001002020" class="phone"><img src="../img/phone.svg" alt=""><span>8 800 100 20-20</span></a>
+                     <span class="free-call">Бесплатно по России</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>     
+   </div>
+   <div class="header-bottomline">
+      <div class="container">
+         <div class="row">
+            <div class="bottomline-content">
+               <div class="col-md-2">
+                  <div class="catalog-button">
+                     <span class="catalog" id="catalog"><img src="../img/menu.svg" alt=""><span>Каталог товаров</span></span>
+                     <div class="only-catalog-menu">
+                        <div class="catalog-nav">
+                           <ul class="catalog-menu">
+                              <li class="with-submenu">
+                                 <a href="">Бассейны</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Индивидуальный дизайн</a></li>
+                                    <li><a href="">Ковры из микрофибры</a></li>
+                                    <li><a href="">Плюшевые ковры</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Ковры</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Индивидуальный дизайн</a></li>
+                                    <li><a href="">Ковры из микрофибры</a></li>
+                                    <li><a href="">Плюшевые ковры</a></li>
+                                    <li><a href="">Стёганные ковры</a></li>
+                                    <li><a href="">Ковры с ворсом</a></li>
+                                    <li><a href="">Коврики</a></li>
+                                    <li><a href="">Коврик-мешок</a></li>
+                                    <li><a href="">Круглые коврики</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Товары для ванной</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                    <li><a href="">Пункт 7</a></li>
+                                    <li><a href="">Пункт 8</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Товары для детей</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Люстры</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Эко-посуда</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Индивидуальный дизайн</a></li>
+                                    <li><a href="">Ковры из микрофибры</a></li>
+                                    <li><a href="">Плюшевые ковры</a></li>
+                                    <li><a href="">Стёганные ковры</a></li>
+                                    <li><a href="">Ковры с ворсом</a></li>
+                                    <li><a href="">Коврики</a></li>
+                                    <li><a href="">Коврик-мешок</a></li>
+                                    <li><a href="">Круглые коврики</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Рюкзаки</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Индивидуальный дизайн</a></li>
+                                    <li><a href="">Ковры из микрофибры</a></li>
+                                    <li><a href="">Плюшевые ковры</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Обувь</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                    <li><a href="">Пункт 7</a></li>
+                                    <li><a href="">Пункт 8</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Пледы</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Настенные наклейки</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                    <li><a href="">Пункт 7</a></li>
+                                    <li><a href="">Пункт 8</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Подвесные кресла</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Коляски</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                    <li><a href="">Пункт 3</a></li>
+                                    <li><a href="">Пункт 4</a></li>
+                                    <li><a href="">Пункт 5</a></li>
+                                    <li><a href="">Пункт 6</a></li>
+                                    <li><a href="">Пункт 7</a></li>
+                                    <li><a href="">Пункт 8</a></li>
+                                 </ul>
+                              </li>
+                              <li class="with-submenu">
+                                 <a href="">Обои</a>
+                                 <ul class="catalog-submenu">
+                                    <li><a href="">Пункт 1</a></li>
+                                    <li><a href="">Пункт 2</a></li>
+                                 </ul>
+                              </li>
+                           </ul>
+                           <div class="catalog-undermenu-mobile">
+                              <ul class="geo-and-help">
+                                 <li><a href="">Москва и Московская область</a></li>
+                                 <li><a href="">Помощь покупателям</a></li>
+                              </ul>
+                              <a href="tel:88001002020" class="mobile-phone">8 800 100 20-20</a>
+                              <span class="free">Бесплатно по России</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-4 mobile-logo">
+                  <a href="../html/main.html" class="header-logo"><img src="../img/logo.svg" alt=""></a>
+               </div>
+               <div class="col-lg-7 col-md-6 hidden-search-block">
+                  <div class="search-and-bottom-nav">
+                     <button class="open-mobile-search">
+                        <img src="../img/search-mobile.svg" alt="" class="open-search">
+                        <img src="../img/close.svg" alt="" class="close-search">
+                     </button>
+                     <div class="search-row-wrp">
+                        <form>
+                           <div class="search">
+                              <input type="text" name="search" placeholder="Люстра из мрамора" autocomplete="off" class="search-input">
+                              <button><img src="../img/search.svg" alt=""></button>
+                              <ul class="search-result-list">
+                                 <li><a href="">Название товара 1</a></li>
+                                 <li><a href="">Название товара 2</a></li>
+                                 <li><a href="">Название товара 3</a></li>
+                                 <li><a href="">Название товара 4</a></li>
+                                 <li><a href="">Название товара 5</a></li>
+                                 <li><a href="">Название товара 6</a></li>
+                                 <li><a href="">Название товара 7</a></li>
+                                 <li><a href="">Название товара 8</a></li>
+                                 <li><a href="">Название товара 9</a></li>
+                                 <li><a href="">Название товара 10</a></li>
+                              </ul>
+                           </div>
+                        </form>
+                     </div>
+                     <ul class="bottomline-nav">
+                        <li><a href="">Новинки</a></li>
+                        <li><a href="">Хиты продаж</a></li>
+                        <li><a href="">Скидки</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="basket-button-wrp active">
+                     <!--Если у basket-button-wrp есть класс active (это значит что добавлен как минимум 1 товар в корзину), то тогда при наведении на корзину вылезет окно с добавленными товарами. Если класса active нету, то при наведении не произойдет ничего и попасть невозможно даже на страницу корзины (таково условие заказчика было)-->
+                     <a href="../html/basket.html" class="basket-button">
+                        <img src="../img/basket.svg" alt="">
+                        <span class="basket-content">
+                           <span class="items">2</span>
+                           <span class="basket-name">Корзина покупок</span>
+                        </span>
+                     </a>
+                     <div class="added-items-block">
+                        <form>
+                           <ul class="added-items-list">
+                              <li>
+                                 <a href="" class="product">
+                                    <span class="product-image"><img src="../img/some-product4.png" alt=""></span>
+                                    <span class="product-name">Название этого товара Название этого товара</span>
+                                 </a>
+                                 <span class="price"><span>127</span> рублей</span>
+                                 <div class="quantity">
+                                    <input type="number" class="quantity-input input_styled" min="1" step="1" value="1">
+                                 </div>
+                                 <span class="all-price"><span>382</span> рублей</span>
+                                 <a href="" class="remove-product"><img src="../img/close.svg" alt=""></a>
+                              </li>
+                              <li>
+                                 <a href="" class="product">
+                                    <span class="product-image"><img src="../img/some-product4.png" alt=""></span>
+                                    <span class="product-name">Название этого товара Название этого товара</span>
+                                 </a>
+                                 <span class="price"><span>127</span> рублей</span>
+                                 <div class="quantity">
+                                    <input type="number" class="quantity-input input_styled" min="1" step="1" value="1">
+                                 </div>
+                                 <span class="all-price"><span>382</span> рублей</span>
+                                 <a href="" class="remove-product"><img src="../img/close.svg" alt=""></a>
+                              </li>
+                           </ul>
+                           <span class="all-price-for-all-products">Итого: <span>381</span> рублей</span>
+                           <button class="pay-order basic-button fiolet">Оформить заказ <img src="../img/arrow-right.svg" alt=""></button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+
+    <main class="main">
+      <section class="breadcrumbs-wrp">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li class="active">Политика конфиденциальности</li>
+          </ol>
+        </div>
+      </section>
+      <section class="basic-text-block-wrp">
+        <div class="container">
+          <div class="basic-text-content">
+            <h2 class="second-level-title">Политика конфиденциальности</h2>
+            <div class="politics-text">
+              <p class="text">Владивосток «08» января 2020 г.</p>
+              <p class="text">Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую Интернет-магазин «littleunicorn», расположенный на доменном имени www.littleunicorn.shop, может получить о Пользователе во время использования сайта Интернет-магазина «littleunicorn», программ и продуктов Интернет-магазина.</p>
+              <p class="text">ОПРЕДЕЛЕНИЕ ТЕРМИНОВ 1.1</p>
+              <p class="text">В настоящей Политике конфиденциальности используются следующие термины:</p>
+              <p class="text">1.1.1. «Администрация сайта Интернет-магазина «littleunicorn» (далее – Администрация сайта) » – уполномоченные сотрудники на управления сайтом, действующие от имени littleunicorn, которые организуют и (или) осуществляет обработку персональных данных, а также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</p>
+              <p class="text">1.1.2. «Персональные данные» - любая информация, относящаяся к прямо или косвенно определенному или определяемому физическому лицу (субъекту персональных данных). </p>
+              <p class="text">1.1.3. «Обработка персональных данных» - любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</p>
+              <p class="text">1.1.4. «Конфиденциальность персональных данных» - обязательное для соблюдения Оператором или иным получившим доступ к персональным данным лицом требование не допускать их распространения без согласия субъекта персональных данных или наличия иного законного основания.</p>
+              <p class="text">1.1.5. «Пользователь сайта Интернет-магазина «littleunicorn» (далее Пользователь)» – лицо, имеющее доступ к Сайту, посредством сети Интернет и использующее Сайт интернет-магазина.</p>
+              <p class="text">1.1.6. «Cookies» — небольшой фрагмент данных, отправленный веб-сервером и хранимый на компьютере пользователя, который веб-клиент или веб-браузер каждый раз пересылает веб-серверу в HTTP-запросе при попытке открыть страницу соответствующего сайта.</p>
+              <p class="text">1.1.7. «IP-адрес» — уникальный сетевой адрес узла в компьютерной сети, построенной по протоколу IP.</p>
+              <p class="text">2. ОБЩИЕ ПОЛОЖЕНИЯ</p>
+              <p class="text">2.1. Использование Пользователем сайта Интернет-магазина «littleunicorn» означает согласие с настоящей Политикой конфиденциальности и условиями обработки персональных данных Пользователя.</p>
+              <p class="text">2.2. В случае несогласия с условиями Политики конфиденциальности Пользователь должен прекратить использование сайта Интернет-магазина «littleunicorn».</p>
+              <p class="text">2.3.Настоящая Политика конфиденциальности применяется только к сайту Интернет-магазина «littleunicorn». Интернет-магазин не контролирует и не несет ответственность за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на сайте Интернет-магазина.</p>
+              <p class="text">2.4. Администрация сайта не проверяет достоверность персональных данных, предоставляемых Пользователем сайта Интернет-магазина «littleunicorn».</p>
+              <p class="text">3. ПРЕДМЕТ ПОЛИТИКИ КОНФИДЕНЦИАЛЬНОСТИ </p>
+              <p class="text">3.1. Настоящая Политика конфиденциальности устанавливает обязательства Администрации сайта интернет-магазина «littleunicorn» по неразглашению и обеспечению режима защиты конфиденциальности персональных данных, которые Пользователь предоставляет по запросу Администрации сайта при регистрации на сайте интернет-магазина или при оформлении заказа для приобретения Товара. </p>
+              <p class="text">3.2. Персональные данные, разрешённые к обработке в рамках настоящей Политики конфиденциальности, предоставляются Пользователем путём заполнения регистрационной формы на Сайте интернет-магазина «littleunicorn» в разделе Название раздела и включают в себя следующую информацию: </p>
+              <p class="text">3.2.1. фамилию, имя, отчество Пользователя;</p>
+              <p class="text">3.2.2. контактный телефон Пользователя;</p>
+              <p class="text">3.2.3. адрес электронной почты (e-mail);</p>
+              <p class="text">3.2.4. адрес доставки Товара;</p>
+              <p class="text">3.2.5. место жительство Пользователя.</p>
+              <p class="text">3.3. Интернет-магазин «littleunicorn» защищает Данные, которые автоматически передаются в процессе просмотра рекламных блоков и при посещении страниц, на которых установлен статистический скрипт системы ("пиксель"):</p>
+              <p class="text">IP адрес; </p>
+              <p class="text">информация из cookies; </p>
+              <p class="text">информация о браузере (или иной программе, которая осуществляет доступ к показу рекламы);</p>
+              <p class="text">время доступа;</p>
+              <p class="text">адрес страницы, на которой расположен рекламный блок; </p>
+              <p class="text">реферер (адрес предыдущей страницы).</p>
+              <p class="text">3.3.1. Отключение cookies может повлечь невозможность доступа к частям сайта Интернет-магазина «littleunicorn», требующим авторизации.</p>
+              <p class="text">3.3.2. Интернет-магазин «littleunicorn» осуществляет сбор статистики об IP-адресах своих посетителей. Данная информация используется с целью выявления и решения технических проблем, для контроля законности проводимых финансовых платежей.</p>
+              <p class="text">3.4. Любая иная персональная информация неоговоренная выше (история покупок, используемые браузеры и операционные системы и т.д.) подлежит надежному хранению и нераспространению, за исключением случаев, предусмотренных в п.п. 5.2. и 5.3. настоящей Политики конфиденциальности.</p>
+              <p class="text">4. ЦЕЛИ СБОРА ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ ПОЛЬЗОВАТЕЛЯ</p>
+              <p class="text">4.1. Персональные данные Пользователя Администрация сайта интернет-магазина «littleunicorn» может использовать в целях:</p>
+              <p class="text">4.1.1. Идентификации Пользователя, зарегистрированного на сайте Интернет-магазина «littleunicorn», для оформления заказа и (или) заключения Договора купли-продажи товара дистанционным способом с «littleunicorn» интернет-магазином.</p>
+              <p class="text">4.1.2. Предоставления Пользователю доступа к персонализированным ресурсам Сайта интернет-магазина.</p>
+              <p class="text">4.1.3. Установления с Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования Сайта интернет-магазина «littleunicorn», оказания услуг, обработка запросов и заявок от Пользователя.</p>
+              <p class="text">4.1.4. Определения места нахождения Пользователя для обеспечения безопасности, предотвращения мошенничества.</p>
+              <p class="text">4.1.5. Подтверждения достоверности и полноты персональных данных, предоставленных Пользователем. </p>
+              <p class="text">4.1.6. Создания учетной записи для совершения покупок, если Пользователь дал согласие на создание учетной записи.</p>
+              <p class="text">4.1.7. Уведомления Пользователя Сайта интернет-магазина «littleunicorn» о состоянии Заказа.</p>
+              <p class="text">4.1.8. Обработки и получения платежей, подтверждения налога или налоговых льгот, оспаривания платежа, определения права на получение кредитной линии Пользователем.</p>
+              <p class="text">4.1.9. Предоставления Пользователю эффективной клиентской и технической поддержки при возникновении проблем связанных с использованием Сайта интернет-магазина «littleunicorn».</p>
+              <p class="text">4.1.10. Предоставления Пользователю с его согласия, обновлений продукции, специальных предложений, информации о ценах, новостной рассылки и иных сведений от имени Интернет-магазина «littleunicorn» или от имени партнеров Интернет-магазина. </p>
+              <p class="text">4.1.11. Осуществления рекламной деятельности с согласия Пользователя.</p>
+              <p class="text">4.1.12. Предоставления доступа Пользователю на сайты или сервисы партнеров Интернет-магазина «littleunicorn» с целью получения продуктов, обновлений и услуг.</p>
+              <p class="text">5. СПОСОБЫ И СРОКИ ОБРАБОТКИ ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ </p>
+              <p class="text">5.1. Обработка персональных данных Пользователя осуществляется без ограничения срока, любым законным способом, в том числе в информационных системах персональных данных с использованием средств автоматизации или без использования таких средств. </p>
+              <p class="text">5.2. Пользователь соглашается с тем, что Администрация сайта вправе передавать персональные данные третьим лицам, в частности, курьерским службам, организациями почтовой связи, операторам электросвязи, исключительно в целях выполнения заказа Пользователя, оформленного на Сайте интернет-магазина «littleunicorn», включая доставку Товара.</p>
+              <p class="text">5.3. Персональные данные Пользователя могут быть переданы уполномоченным органам государственной власти Российской Федерации только по основаниям и в порядке, установленным законодательством Российской Федерации.</p>
+              <p class="text">5.4. При утрате или разглашении персональных данных Администрация сайта информирует Пользователя об утрате или разглашении персональных данных.</p>
+              <p class="text">5.5. Администрация сайта принимает необходимые организационные и технические меры для защиты персональной информации Пользователя от неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения, а также от иных неправомерных действий третьих лиц.</p>
+              <p class="text">5.6. Администрация сайта совместно с Пользователем принимает все необходимые меры по предотвращению убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных Пользователя.</p>
+              <p class="text">6. ОБЯЗАТЕЛЬСТВА СТОРОН</p>
+              <p class="text">6.1. Пользователь обязан:</p>
+              <p class="text">6.1.1. Предоставить информацию о персональных данных, необходимую для пользования Сайтом интернет-магазина «littleunicorn».</p>
+              <p class="text">6.1.2. Обновить, дополнить предоставленную информацию о персональных данных в случае изменения данной информации. </p>
+              <p class="text">6.2. Администрация сайта обязана:</p>
+              <p class="text">6.2.1. Использовать полученную информацию исключительно для целей, указанных в п. 4 настоящей Политики конфиденциальности. </p>
+              <p class="text">6.2.2. Обеспечить хранение конфиденциальной информации в тайне, не разглашать без предварительного письменного разрешения Пользователя, а также не осуществлять продажу, обмен, опубликование, либо разглашение иными возможными способами переданных персональных данных Пользователя, за исключением п.п. 5.2. и 5.3. настоящей Политики Конфиденциальности. </p>
+              <p class="text">6.2.3. Принимать меры предосторожности для защиты конфиденциальности персональных данных Пользователя согласно порядку, обычно используемого для защиты такого рода информации в существующем деловом обороте.</p>
+              <p class="text">6.2.4. Осуществить блокирование персональных данных, относящихся к соответствующему Пользователю, с момента обращения или запроса Пользователя или его законного представителя либо уполномоченного органа по защите прав субъектов персональных данных на период проверки, в случае выявления недостоверных персональных данных или неправомерных действий.</p>
+              <p class="text">7. ОТВЕТСТВЕННОСТЬ СТОРОН</p>
+              <p class="text">7.1. Администрация сайта, не исполнившая свои обязательства, несёт ответственность за убытки, понесённые Пользователем в связи с неправомерным использованием персональных данных, в соответствии с законодательством Российской Федерации, за исключением случаев, предусмотренных п.п. 5.2., 5.3. и 7.2. настоящей Политики Конфиденциальности. </p>
+              <p class="text">7.2. В случае утраты или разглашения Конфиденциальной информации Администрация сайта не несёт ответственность, если данная конфиденциальная информация:</p>
+              <p class="text">7.2.1. Стала публичным достоянием до её утраты или разглашения.</p>
+              <p class="text">7.2.2. Была получена от третьей стороны до момента её получения Администрацией сайта.</p>
+              <p class="text">7.2.3. Была разглашена с согласия Пользователя.</p>
+              <p class="text">8. РАЗРЕШЕНИЕ СПОРОВ</p>
+              <p class="text">8.1. До обращения в суд с иском по спорам, возникающим из отношений между Пользователем сайта Интернет-магазина «littleunicorn» и Администрацией сайта, обязательным является предъявление претензии (письменного предложения о добровольном урегулировании спора).</p>
+              <p class="text">8.2 .Получатель претензии в течение 30 календарных дней со дня получения претензии, письменно уведомляет заявителя претензии о результатах рассмотрения претензии.</p>
+              <p class="text">8.3. При не достижении соглашения спор будет передан на рассмотрение в судебный орган в соответствии с действующим законодательством Российской Федерации.</p>
+              <p class="text">8.4. К настоящей Политике конфиденциальности и отношениям между Пользователем и Администрацией сайта применяется действующее законодательство Российской Федерации.</p>
+              <p class="text">9. ДОПОЛНИТЕЛЬНЫЕ УСЛОВИЯ</p>
+              <p class="text">9.1. Администрация сайта вправе вносить изменения в настоящую Политику конфиденциальности без согласия Пользователя.</p>
+              <p class="text">9.2. Новая Политика конфиденциальности вступает в силу с момента ее размещения на Сайте интернет-магазина «littleunicorn», если иное не предусмотрено новой редакцией Политики конфиденциальности.</p>
+              <p class="text">9.3. Все предложения или вопросы по настоящей Политике конфиденциальности следует сообщать указать раздел сайта интернет-магазина «littleunicorn».</p>
+              <p class="text">9.4. Действующая Политика конфиденциальности размещена на странице по адресу www.littleunicorn.shop. </p>
+              <p class="text">Обновлено «08» января 2020 г.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    
+    </main>
+    <div class="layer"></div>
+
+    <footer class="footer">
+	<div class="footer-topline">
+		<div class="container">
+			<div class="row">
+				<div class="topline-content">
+					<div class="col-md-3 col-xs-6">
+						<div class="footer-nav-block">
+							<span class="footer-nav-name">Сервис и поддержка</span>
+							<ul class="footer-nav">
+								<li><a href="">Как сделать заказ?</a></li>
+								<li><a href="">Доставка</a></li>
+								<li><a href="">Оплата</a></li>
+								<li><a href="">Возврат</a></li>
+								<li><a href="">Акции</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="footer-nav-block">
+							<span class="footer-nav-name">Маркетплейс</span>
+							<ul class="footer-nav">
+								<li><a href="">О компании</a></li>
+								<li><a href="">Контакты</a></li>
+								<li><a href="">Реквизиты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="footer-nav-block">
+							<span class="footer-nav-name">Правовая информация</span>
+							<ul class="footer-nav">
+								<li><a href="">Политика обработки<br> персональных данных</a></li>
+								<li><a href="">Условия заказа и доставки</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<div class="footer-nav-block">
+							<span class="footer-nav-name">Cледуйте за нами</span>
+							<ul class="networks-list">
+								<li><a href=""><img src="../img/fb.svg" alt=""></a></li>
+								<li><a href=""><img src="../img/vk.svg" alt=""></a></li>
+								<li><a href=""><img src="../img/inst.svg" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-centerline">
+		<div class="container">
+			<div class="row">
+				<div class="centerline-content">
+					<div class="col-lg-7">
+						<div class="questions-block-content">
+							<div class="question-block"><span>Остались вопросы?</span></div>
+							<div class="question-block">
+								<span>Звоните</span>
+								<a href="tel:08001002020" class="phone">0 800 100 20-20</a>
+							</div>
+							<div class="question-block">
+								<span>или пишите</span>
+								<ul class="networks-list">
+									<li><a href=""><img src="../img/tg.svg" alt=""></a></li>
+									<li><a href=""><img src="../img/viber.svg" alt=""></a></li>
+									<li><a href=""><img src="../img/whatsapp.svg" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 mobile-hidden">
+						<div class="questions-block-content">
+							<div class="question-block">
+								<span>Принимаем к оплате:</span>
+								<ul class="networks-list">
+									<li><a href=""><img src="../img/mastercard.svg" alt=""></a></li>
+									<li><a href=""><img src="../img/visa.svg" alt=""></a></li>
+									<li><a href=""><img src="../img/mir.svg" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottomline">
+		<div class="container">
+			<div class="bottomline-content">
+				<span class="copy"><strong>2015-2020 magazin.ru</strong> - интернет-магазин товаров разносторонней тематики</span>
+			</div>
+		</div>
+	</div>
+</footer>
+
+    <div class="modal fade" id="modal-call">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="../img/close-white.svg" alt=""></button>
+        <h2 class="second-level-title">Свяжитесь с нами!</h2>
+        <span class="modal-descript">Мы позвоним Вам в течение 10 минут</span>
+        <form>
+           <input type="text" class="basic-input" name="name" placeholder="Введите Ваше имя">
+           <input type="tel" class="basic-input" name="phone" placeholder="Введите Ваш номер">
+           <button class="basic-button fiolet connect">Связаться с нами</button>
+           <span class="politics">Нажимая на кнопку, я даю согласие на обработку <a href="../html/politics.html">персональных данных</a></span>
+        </form>
+      </div>
+   </div>
+</div>
+
+<div class="modal fade" id="modal-thanks">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="../img/close-white.svg" alt=""></button>
+        <h2 class="second-level-title">Спасибо!</h2>
+        <span class="modal-descript">Ждите нашего звонка</span>
+        <img src="../img/phone-modal.svg" alt="" class="phone-thanks">
+      </div>
+   </div>
+</div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery.inputmask.bundle.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jquery.formstyler.js"></script>
+    <script src="../js/slick.js"></script>
+    <!-- My JS -->
+    <script src="../js/celdrusch.js"></script>
+
+  </body>
+</html>
